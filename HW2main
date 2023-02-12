@@ -1,0 +1,9 @@
+public class Main {
+    public static void main(String[] args) {
+        TestLogin tl = new TestLogin();
+        boolean TrueLogin = tl.isLoginValid("serdar");
+        if (TrueLogin) System.out.println("valid login :D");
+        else System.out.println("invalid login D:<");
+
+    }
+}
